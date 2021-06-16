@@ -96,11 +96,31 @@ body {
 }
 
 @media (max-width: 500px) {
+  body {
+    width: 80%;
+    margin: auto;
+  }
   .card {
     flex-direction: column;
     align-items: center;
+    width: 80%;
+    margin: auto;
   }
   .user-form {
     max-width: 400px;
+  }
+  .user-info h2 {
+    font-family: monospace;
+    margin-top: 10px;
+  }
+  .user-info ul {
+    margin-right: 10px;
+  }
+  .user-info ul li {
+    text-align: center;
+    margin-right: 10px;
+    /* display: flex;
+    align-items: center;
+    justify-content: space-around; */
   }
 } ;
